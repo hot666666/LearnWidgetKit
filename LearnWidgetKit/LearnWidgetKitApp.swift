@@ -25,7 +25,7 @@ struct LearnWidgetKitApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SwiftDataContentView()
         }
         .modelContainer(sharedModelContainer)
     }
