@@ -7,9 +7,12 @@
 
 import SwiftUI
 import SwiftData
+import WidgetKit
 
 @main
 struct LearnWidgetKitApp: App {
+    @Environment(\.scenePhase) private var scenePhase
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,8 +28,26 @@ struct LearnWidgetKitApp: App {
 
     var body: some Scene {
         WindowGroup {
-            SwiftDataContentView()
+            TabView {
+                SwiftDataContentView()
+                    .tabItem {
+                        Text("SwiftData")
+                    }
+                AppGroupContentView()
+                    .tabItem {
+                        Text("AppGroup")
+                    }
+            }
+        }
+        .onChange(of: scenePhase) { oldValue, newValue in
+            if newValue == .inactive {
+                updateWidget()
+            }
         }
         .modelContainer(sharedModelContainer)
+    }
+    
+    private func updateWidget() {
+        WidgetCenter.shared.reloadTimelines(ofKind: "SwiftDataExample")
     }
 }

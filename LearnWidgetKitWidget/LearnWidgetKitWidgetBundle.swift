@@ -12,5 +12,6 @@ import SwiftUI
 struct LearnWidgetKitWidgetBundle: WidgetBundle {
     var body: some Widget {
         SwiftDataWidget()
+        AppGroupWidget()
     }
 }
