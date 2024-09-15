@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SwiftData
-import WidgetKit
 
 struct SwiftDataContentView: View {
     @Environment(\.modelContext) private var modelContext
@@ -56,7 +55,6 @@ struct SwiftDataContentView: View {
         withAnimation {
             let newItem = Item(timestamp: Date())
             modelContext.insert(newItem)
-            updateWidget()
         }
     }
 
@@ -65,12 +63,7 @@ struct SwiftDataContentView: View {
             for index in offsets {
                 modelContext.delete(items[index])
             }
-            updateWidget()
         }
-    }
-    
-    private func updateWidget() {
-        WidgetCenter.shared.reloadTimelines(ofKind: "SwiftDataExample")
     }
 }
 

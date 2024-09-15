@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4530B6512C96B9AB00264EBE /* AppGroupWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B6502C96B9A500264EBE /* AppGroupWidget.swift */; };
+		4530B6532C96B9FB00264EBE /* AppGroupWidget+Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B6522C96B9FA00264EBE /* AppGroupWidget+Entry.swift */; };
+		4530B6552C96BA1500264EBE /* AppGroupWidget+EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B6542C96BA1200264EBE /* AppGroupWidget+EntryView.swift */; };
+		4530B6572C96BA1D00264EBE /* AppGroupWidget+Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B6562C96BA1B00264EBE /* AppGroupWidget+Provider.swift */; };
+		4530B65A2C96BBE900264EBE /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B6592C96BBE400264EBE /* UserDefaults+Extension.swift */; };
+		4530B65C2C96BC8E00264EBE /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B65B2C96BC8900264EBE /* FileManager+Extension.swift */; };
+		4530B65E2C96BCBB00264EBE /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B65D2C96BCB900264EBE /* Shared.swift */; };
+		4530B6602C96BF2500264EBE /* AppGroupContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B65F2C96BF1E00264EBE /* AppGroupContentView.swift */; };
+		4530B6612C96BF5800264EBE /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B65D2C96BCB900264EBE /* Shared.swift */; };
+		4530B6622C96BF6300264EBE /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B6592C96BBE400264EBE /* UserDefaults+Extension.swift */; };
+		4530B6632C96BF6B00264EBE /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530B65B2C96BC8900264EBE /* FileManager+Extension.swift */; };
 		453EFEA72C9164C4008C04DD /* LearnWidgetKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EFEA62C9164C4008C04DD /* LearnWidgetKitApp.swift */; };
 		453EFEA92C9164C4008C04DD /* SwiftDataContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EFEA82C9164C4008C04DD /* SwiftDataContentView.swift */; };
 		453EFEAB2C9164C4008C04DD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EFEAA2C9164C4008C04DD /* Item.swift */; };
@@ -49,6 +60,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4530B6502C96B9A500264EBE /* AppGroupWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupWidget.swift; sourceTree = "<group>"; };
+		4530B6522C96B9FA00264EBE /* AppGroupWidget+Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppGroupWidget+Entry.swift"; sourceTree = "<group>"; };
+		4530B6542C96BA1200264EBE /* AppGroupWidget+EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppGroupWidget+EntryView.swift"; sourceTree = "<group>"; };
+		4530B6562C96BA1B00264EBE /* AppGroupWidget+Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppGroupWidget+Provider.swift"; sourceTree = "<group>"; };
+		4530B6592C96BBE400264EBE /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		4530B65B2C96BC8900264EBE /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		4530B65D2C96BCB900264EBE /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		4530B65F2C96BF1E00264EBE /* AppGroupContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupContentView.swift; sourceTree = "<group>"; };
 		453EFEA32C9164C4008C04DD /* LearnWidgetKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnWidgetKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		453EFEA62C9164C4008C04DD /* LearnWidgetKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnWidgetKitApp.swift; sourceTree = "<group>"; };
 		453EFEA82C9164C4008C04DD /* SwiftDataContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +108,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4530B64F2C96B85B00264EBE /* AppGroupWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4530B65D2C96BCB900264EBE /* Shared.swift */,
+				4530B6582C96BBDA00264EBE /* Extension */,
+				4530B6502C96B9A500264EBE /* AppGroupWidget.swift */,
+				4530B6522C96B9FA00264EBE /* AppGroupWidget+Entry.swift */,
+				4530B6542C96BA1200264EBE /* AppGroupWidget+EntryView.swift */,
+				4530B6562C96BA1B00264EBE /* AppGroupWidget+Provider.swift */,
+			);
+			path = AppGroupWidget;
+			sourceTree = "<group>";
+		};
+		4530B6582C96BBDA00264EBE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4530B65B2C96BC8900264EBE /* FileManager+Extension.swift */,
+				4530B6592C96BBE400264EBE /* UserDefaults+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		453EFE9A2C9164C4008C04DD = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +155,7 @@
 				453EFEAE2C9164C5008C04DD /* LearnWidgetKit.entitlements */,
 				453EFEA62C9164C4008C04DD /* LearnWidgetKitApp.swift */,
 				453EFEA82C9164C4008C04DD /* SwiftDataContentView.swift */,
+				4530B65F2C96BF1E00264EBE /* AppGroupContentView.swift */,
 				453EFEDA2C9168F4008C04DD /* SwiftDataModel */,
 				45BEADE32C91725B00968678 /* Resource */,
 			);
@@ -136,6 +178,7 @@
 				453EFEC82C91678C008C04DD /* Info.plist */,
 				453EFEC22C91678B008C04DD /* LearnWidgetKitWidgetBundle.swift */,
 				453EFED12C916837008C04DD /* SwiftDataWidget */,
+				4530B64F2C96B85B00264EBE /* AppGroupWidget */,
 				45BEADE42C91729600968678 /* Resource */,
 			);
 			path = LearnWidgetKitWidget;
@@ -278,8 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4530B6612C96BF5800264EBE /* Shared.swift in Sources */,
+				4530B6602C96BF2500264EBE /* AppGroupContentView.swift in Sources */,
 				453EFEA92C9164C4008C04DD /* SwiftDataContentView.swift in Sources */,
 				453EFEAB2C9164C4008C04DD /* Item.swift in Sources */,
+				4530B6622C96BF6300264EBE /* UserDefaults+Extension.swift in Sources */,
+				4530B6632C96BF6B00264EBE /* FileManager+Extension.swift in Sources */,
 				453EFEA72C9164C4008C04DD /* LearnWidgetKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,10 +335,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4530B65E2C96BCBB00264EBE /* Shared.swift in Sources */,
+				4530B6512C96B9AB00264EBE /* AppGroupWidget.swift in Sources */,
 				453EFED52C916886008C04DD /* SwiftDataWidget+Entry.swift in Sources */,
+				4530B6532C96B9FB00264EBE /* AppGroupWidget+Entry.swift in Sources */,
+				4530B65A2C96BBE900264EBE /* UserDefaults+Extension.swift in Sources */,
+				4530B6552C96BA1500264EBE /* AppGroupWidget+EntryView.swift in Sources */,
+				4530B65C2C96BC8E00264EBE /* FileManager+Extension.swift in Sources */,
 				453EFED72C916894008C04DD /* SwiftDataWidget+EntryView.swift in Sources */,
 				453EFED92C9168A0008C04DD /* SwiftDataWidget+Provider.swift in Sources */,
 				453EFEC32C91678B008C04DD /* LearnWidgetKitWidgetBundle.swift in Sources */,
+				4530B6572C96BA1D00264EBE /* AppGroupWidget+Provider.swift in Sources */,
 				453EFEDB2C916911008C04DD /* Item.swift in Sources */,
 				453EFED32C916874008C04DD /* SwiftDataWidget.swift in Sources */,
 			);
